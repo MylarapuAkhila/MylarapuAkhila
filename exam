@@ -1,0 +1,50 @@
+- 👋 Hi, I’m @MylarapuAkhila
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+MylarapuAkhila/MylarapuAkhila is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body>
+      <div >
+      <div class="mb-2" id="Email">
+      <lable>Email:</lable><br>
+    <input type="text">
+    </div>
+    <div class="m-5" id="Skype">
+    <lable>Skype name:</lable><br>
+    <input type="text">
+    </div>
+    <div class="mb-2" id="phone">
+    <lable >phone number:</lable><br>
+    <input type="text">
+    </div>
+    </div>
+  </body>
+</html>
+let a=document.getElementById('Email');
+let b=document.getElementById("Skype");
+let c=document.getElementById("phone");
+
+
+    if(a.value==a.endsWith("@.com")){
+        pass
+        
+    }
+    else{
+        console.log("invalid")
+    }
+
+    if(length(c.value)==9){
+        pass
+        
+    }
+    else{
+        console.log("invalid")
+    }
